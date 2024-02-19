@@ -18,7 +18,7 @@ function addTodo(event){
     todoDiv.classList.add("todo");
     //créer le li
     const newTodo = document.createElement("li");
-    newTodo.innerText = todoInput.value.trim;
+    newTodo.innerText = todoInput.value;
     newTodo.classList.add("todo-item");
     todoDiv.appendChild(newTodo);
     //ajouter la fonction todo au local storage
